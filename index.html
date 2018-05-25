@@ -2,6 +2,27 @@
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "theme": "classic",
+  "position": "top",
+  "content": {
+    "message": "This website collects your information using Google Analytics.",
+    "href": "privacy.html"
+  }
+})});
+</script>
 <head>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -98,7 +119,7 @@
       <section class="section summary-section">
         <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
         <div class="summary">
-          <p>I am someone who likes tinkering and working with complex problems. My interests are Space, Green Energy, and Computer Networking. I have experience in AVR, MSP430, and STM32 Microcontroller as well as FPGA from Xilinx. My objective is to join a reputable company and become a member of a professional engineering team that later can change the world for a better living in the scope of technological breakthrough.</p>
+          <p>I am someone who likes tinkering and working with complex problems. My interests are Space, Green Energy, and Computer Networking. I have experience in AVR, MSP430, and STM32 Microcontroller (8-bit &amp; 32-bit) as well as FPGA from Xilinx. My objective is to join a reputable company and become a member of a professional engineering team that later can change the world for a better living in the scope of technological breakthrough.</p>
         </div><!--//summary-->
       </section><!--//section-->
 
@@ -385,7 +406,7 @@
     <small class="copyright">Berlin 2018 &copy; Andi Tandy</small>
   </div><!--//container-->
   <div class="text-center">
-    <small class="copyright">Updated: 15 March 2018</small>
+    <small class="copyright">Updated: 15 March 2018.  <a href="privacy.html">Privacy Policy</a></small>
   </div>
 </footer><!--//footer-->
 
